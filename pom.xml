@@ -135,7 +135,7 @@
 						<imageTag>latest</imageTag>
 					</imageTags>
 				</configuration>
-				<executions>
+				<!-- <executions>
 					<execution>
 						<id>push-image</id>
 						<phase>deploy</phase>
@@ -143,7 +143,7 @@
 							<goal>push</goal>
 						</goals>
 					</execution>
-				</executions>
+				</executions> -->
 			</plugin>
 		</plugins>
 	</build>
